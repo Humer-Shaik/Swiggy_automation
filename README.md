@@ -134,18 +134,7 @@ The console will confirm each major milestone and print a final message when aut
 8. **Proceed to Payment** – Click **Proceed to Payment** in cart summary.
 9. **Completion** – Print final console message; automation ends with browser still open for manual review.
 
-```mermaid
-flowchart LR
-    A[Launch Chrome] --> B[Login]
-    B --> C[Search "Dominos"]
-    C --> D[Select Restaurant]
-    D --> E[Add Item to Cart]
-    E --> F[Enter Address]
-    F --> G[Proceed to Payment]
-    G --> H[Automation Complete]
-```
 
----
 
 ## Troubleshooting
 
